@@ -1,0 +1,21 @@
+{
+    "name": "Bigfarm bot",
+    "version": "1.0",
+    "description": "Goodgame Bigfarm bot",
+    "manifest_version": 2,
+
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [ "jquery-3.3.1.js", "content.js" ]
+        }
+    ],
+
+    "browser_action": {
+        "default_icon": "icon.png"
+    }
+}
+
+
